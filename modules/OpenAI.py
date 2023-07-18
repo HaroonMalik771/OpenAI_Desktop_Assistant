@@ -7,7 +7,7 @@ from docx import Document
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = 'Add API'
 
 class Assistant:
     def __init__(self):
