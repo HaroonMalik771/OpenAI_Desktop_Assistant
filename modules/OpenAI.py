@@ -7,7 +7,7 @@ from docx import Document
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = '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'
 
 class Assistant:
     def __init__(self):
@@ -100,7 +100,7 @@ class Assistant:
                 self.document.add_paragraph(assistant_response)
 
         # Save the Word document
-        self.document.save('Conservation.docx')
+        self.document.save('conservation.docx')
 
         print("AI Desktop Assistant: Conversation ended.")
 

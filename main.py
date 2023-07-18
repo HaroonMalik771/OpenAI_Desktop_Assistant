@@ -1,4 +1,4 @@
-from OpenAI import Assistant
+from modules.OpenAI import Assistant
 
 def main():
     assistant = Assistant()
